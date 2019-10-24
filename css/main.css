@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #dbd6cf;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: Bevan, sans-serif;
+  color: #fff;
+  margin: .3em;
+  padding: .6em .5em .75em;
+}
+
+header {
+  background-color: #79756f;
+  border-color: #595652;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: none;
+  text-align: center;
+  padding: .6em .5em .75em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: .3em;
+}
+
+nav a {
+  display: inline-block;
+}
